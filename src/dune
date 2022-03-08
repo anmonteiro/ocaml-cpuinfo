@@ -1,0 +1,6 @@
+(library
+ (name cpuinfo)
+ (foreign_stubs
+  (language c)
+  (names num_cores ocaml_cstubs)
+  (extra_deps ../config.h num_cores.h)))
